@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_floating_logcat.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_floating_logcat.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_floating_fps.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_floating_fps.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_dialog_power.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_dialog_power.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_dialog_refresh_rate.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_dialog_refresh_rate.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/activity_settings.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_dialog_battery.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_dialog_battery.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_dialog_logcat.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_dialog_logcat.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_dialog_dpi.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_dialog_dpi.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/layout_dialog_resolution.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/layout_dialog_resolution.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/activity_main.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/activity_info.xml",
+        "source": "com.toolbox.shizutools.app-main-36:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-mergeReleaseResources-34:/layout/activity_info.xml",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/com.toolbox.shizutools.app-main-36:/layout/activity_info.xml"
+    }
+]

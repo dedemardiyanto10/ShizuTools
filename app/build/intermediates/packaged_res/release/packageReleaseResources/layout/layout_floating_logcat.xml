@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="300dp"
+     android:layout_width="250dp"
+     app:cardElevation="8dp"
+     app:cardBackgroundColor="#CC000000"
+     app:cardCornerRadius="16dp">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_height="30dp"
+             android:layout_width="match_parent"
+             android:background="#44FFFFFF"
+             android:gravity="center_vertical"
+             android:paddingHorizontal="10dp"
+             android:id="@+id/logHeader">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="0dp"
+                 android:textSize="10sp"
+                 android:textColor="#81C784"
+                 android:layout_weight="1"
+                 android:text="Live Logcat"
+                 android:textStyle="bold" />
+
+            <ImageView
+                 android:layout_height="18dp"
+                 android:layout_width="18dp"
+                 android:src="@android:drawable/ic_menu_close_clear_cancel"
+                 app:tint="#FF5252"
+                 android:id="@+id/btnCloseLog" />
+
+        </LinearLayout>
+
+        <ScrollView
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:padding="8dp"
+             android:id="@+id/logScroll">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:fontFamily="monospace"
+                 android:textSize="9sp"
+                 android:textColor="#4CAF50"
+                 android:id="@+id/txtFloatingLog" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

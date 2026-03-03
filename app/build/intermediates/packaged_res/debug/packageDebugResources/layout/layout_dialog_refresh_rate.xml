@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp"
+        style="?attr/materialCardViewFilledStyle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_gps"
+                app:tint="?attr/colorPrimary" />
+
+            <TextView
+                android:id="@+id/txtCurrentRefreshRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Refresh Rate Aktif: -- Hz"
+                android:textAppearance="?attr/textAppearanceLabelLarge" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih mode refresh rate untuk dipaksa (Force):"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/rb60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stabil (60 Hz)" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/rb90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Halus (90 Hz)" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/rb120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sangat Halus (120 Hz)" />
+
+    </RadioGroup>
+
+</LinearLayout>

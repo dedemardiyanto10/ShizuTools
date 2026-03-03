@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.toolbox.shizutools"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+11-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:6:5-8:53
+11-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:7:9-61
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+12-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:9:5-87
+12-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:9:22-84
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:10:5-78
+13-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:10:22-75
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:11:5-77
+14-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:11:22-74
+15    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+15-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:12:5-14:51
+15-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:13:13-66
+16
+17    <queries>
+17-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:15:5-22:15
+18        <package android:name="dev.rikka.shizuku" />
+18-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:16:9-53
+18-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:16:18-50
+19        <package android:name="moe.shizuku.privileged.api" />
+19-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:17:9-62
+19-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:17:18-59
+20
+21        <intent>
+21-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:18:9-21:18
+22            <action android:name="android.intent.action.MAIN" />
+22-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:19:13-65
+22-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:19:21-62
+23
+24            <category android:name="android.intent.category.LAUNCHER" />
+24-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:20:13-73
+24-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:20:23-70
+25        </intent>
+26    </queries>
+27
+28    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+28-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:8:5-78
+28-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:8:22-75
+29
+30    <permission
+30-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/5226c66d4d64e07299a443a535ae4c55/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+31        android:name="com.toolbox.shizutools.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/5226c66d4d64e07299a443a535ae4c55/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/5226c66d4d64e07299a443a535ae4c55/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.toolbox.shizutools.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/5226c66d4d64e07299a443a535ae4c55/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/5226c66d4d64e07299a443a535ae4c55/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:24:5-59:19
+37        android:allowBackup="true"
+37-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:25:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.17.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/5226c66d4d64e07299a443a535ae4c55/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@mipmap/ic_launcher"
+41-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:26:9-43
+42        android:label="@string/app_name"
+42-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:27:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:28:9-54
+44        android:supportsRtl="true"
+44-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:29:9-35
+45        android:theme="@style/AppTheme" >
+45-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:30:9-40
+46        <activity
+46-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:32:9-39:20
+47            android:name="com.toolbox.shizutools.MainActivity"
+47-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:33:13-41
+48            android:exported="true" >
+48-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:34:13-36
+49            <intent-filter>
+49-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:35:13-38:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:19:13-65
+50-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:19:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:20:13-73
+52-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:20:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <service
+56-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:41:9-45:58
+57            android:name="com.toolbox.shizutools.FpsService"
+57-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:42:13-39
+58            android:enabled="true"
+58-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:43:13-35
+59            android:exported="false"
+59-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:44:13-37
+60            android:foregroundServiceType="specialUse" />
+60-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:45:13-55
+61        <service
+61-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:47:9-50:40
+62            android:name="com.toolbox.shizutools.LogcatService"
+62-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:48:13-42
+63            android:enabled="true"
+63-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:49:13-35
+64            android:exported="false" />
+64-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:50:13-37
+65
+66        <provider
+67            android:name="rikka.shizuku.ShizukuProvider"
+67-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:53:13-57
+68            android:authorities="com.toolbox.shizutools.shizuku"
+68-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:54:13-59
+69            android:enabled="true"
+69-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:56:13-35
+70            android:exported="true"
+70-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:57:13-36
+71            android:multiprocess="false" />
+71-->/storage/emulated/0/AndroidIDEProjects/ShizuTools/app/src/main/AndroidManifest.xml:55:13-41
+72
+73        <meta-data
+73-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:11:9-13:36
+74            android:name="moe.shizuku.client.V3_SUPPORT"
+74-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:12:13-57
+75            android:value="true" />
+75-->[dev.rikka.shizuku:provider:13.1.5] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/4d2edecaa853cff68629cd3e3e0ec8b1/transformed/provider-13.1.5/AndroidManifest.xml:13:13-33
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e857514bd7e4efc0ffebd213d5970ac0/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e857514bd7e4efc0ffebd213d5970ac0/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+79            android:authorities="com.toolbox.shizutools.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e857514bd7e4efc0ffebd213d5970ac0/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e857514bd7e4efc0ffebd213d5970ac0/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e857514bd7e4efc0ffebd213d5970ac0/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e857514bd7e4efc0ffebd213d5970ac0/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/e857514bd7e4efc0ffebd213d5970ac0/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/280af3eeee63cc1052215e48b3245faf/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/280af3eeee63cc1052215e48b3245faf/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.6.2] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/280af3eeee63cc1052215e48b3245faf/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/9.0.0/transforms/694583ca7f93078054d1c5ad35f4393d/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>

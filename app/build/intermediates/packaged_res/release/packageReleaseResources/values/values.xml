@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_title">Tentang Aplikasi</string>
+    <string name="android_version">Versi Android</string>
+    <string name="app_name">ShizuTools</string>
+    <string name="appearance">Tampilan</string>
+    <string name="battery_capacity_format">Kapasitas: %1$d / %2$d mAh</string>
+    <string name="battery_cycles_format">%s kali</string>
+    <string name="battery_done">Selesai</string>
+    <string name="battery_health_label">Kesehatan: %s</string>
+    <string name="battery_health_pct_label">Kesehatan: %1$s (%2$d%%)</string>
+    <string name="battery_title">Analisis Baterai</string>
+    <string name="battery_voltage_format">Tegangan: %s V</string>
+    <string name="black_mode">Tema malam hitam</string>
+    <string name="black_mode_desc">Gunakan latar belakang hitam pekat</string>
+    <string name="btn_check_update">Periksa Pembaruan</string>
+    <string name="btn_contact_dev">Hubungi Pengembang</string>
+    <string name="changelog_content">
+        <b>Versi 1.0.0 (Initial Release)</b>
+        \n• Fitur Shizuku Tools Dasar\n• Pengatur DPI &amp; Resolusi\n• Monitor FPS &amp; Logcat Floating\n• Info Kesehatan Baterai Detail\n• Tema Gelap &amp; Mode Amoled Pekat\n• Dukungan Multi-bahasa
+    </string>
+    <string name="credits_text">• Shizuku API oleh Rikka\n• Material Components oleh Google\n• Dynamic Colors (Material You)\n• AndroidIDE untuk Pengembangan</string>
+    <string name="dark_theme">Tema gelap</string>
+    <string name="desc_battery">Pantau kesehatan baterai, siklus, dan suhu secara akurat.</string>
+    <string name="desc_density">Ubah skala UI untuk mengatur besar kecilnya ikon dan teks.</string>
+    <string name="desc_fps">Tampilkan frame rate real-time di atas aplikasi lain.</string>
+    <string name="desc_logcat">Pantau log sistem secara real-time per aplikasi.</string>
+    <string name="desc_power">Akses cepat untuk Reboot, Recovery, dan Shutdown.</string>
+    <string name="desc_refresh_rate">Paksa Hz tertinggi untuk pengalaman visual yang lebih mulus.</string>
+    <string name="desc_resolution">Ubah pixel layar untuk performa game atau ketajaman visual.</string>
+    <string name="developer_name">Pengembang: Gemini AI</string>
+    <string name="device_model">Model Perangkat</string>
+    <string name="dpi_apply">Terapkan</string>
+    <string name="dpi_cancel">Batal</string>
+    <string name="dpi_current_helper">DPI perangkat saat ini: %d</string>
+    <string name="dpi_error_empty">DPI tidak boleh kosong!</string>
+    <string name="dpi_error_nan">Input harus berupa angka!</string>
+    <string name="dpi_error_range">Nilai tidak wajar (72-1000)!</string>
+    <string name="dpi_msg">Ubah kepadatan layar (DPI). Nilai yang disarankan biasanya antara 360 hingga 500.</string>
+    <string name="dpi_reset">Reset Default</string>
+    <string name="dpi_reset_toast">DPI dikembalikan ke default</string>
+    <string name="dpi_title">Pengubah DPI</string>
+    <string name="error_close">Tutup</string>
+    <string name="error_open_shizuku">Buka Shizuku</string>
+    <string name="hz_apply">Terapkan</string>
+    <string name="hz_cancel">Batal</string>
+    <string name="hz_current">Refresh Rate Aktif: %s Hz</string>
+    <string name="hz_reset">Reset Default</string>
+    <string name="hz_reset_toast">Kembali ke pengaturan sistem</string>
+    <string name="hz_title">Paksa Refresh Rate</string>
+    <string name="label_selinux">Mode SELinux</string>
+    <string name="label_uid">UID Layanan</string>
+    <string name="label_version">Versi</string>
+    <string name="language">Bahasa</string>
+    <string name="logcat_cancel">Batal</string>
+    <string name="logcat_error_empty">Package name tidak boleh kosong!</string>
+    <string name="logcat_error_overlay">Izin Overlay belum aktif!</string>
+    <string name="logcat_filter_msg">Masukkan nama paket aplikasi (Package Name) untuk memantau log secara real-time.</string>
+    <string name="logcat_filter_title">Filter Logcat</string>
+    <string name="logcat_open_settings">Buka Settings</string>
+    <string name="logcat_perm_msg">Untuk memfilter log per aplikasi, aktifkan \'Akses Penggunaan\' untuk aplikasi ini.</string>
+    <string name="logcat_perm_title">Izin Diperlukan</string>
+    <string name="logcat_start">Mulai</string>
+    <string name="permission_desc">Ketuk fitur untuk meminta izin</string>
+    <string name="permission_required">Butuh Izin</string>
+    <string name="power_cancel">Batal</string>
+    <string name="power_title">Menu Daya Lanjutan</string>
+    <string name="res_apply">Terapkan</string>
+    <string name="res_cancel">Batal</string>
+    <string name="res_error_h_empty">Tinggi wajib diisi!</string>
+    <string name="res_error_w_empty">Lebar wajib diisi!</string>
+    <string name="res_msg">Ubah resolusi layar. Pastikan aspek rasio sesuai agar tampilan tidak tertarik.</string>
+    <string name="res_original_helper">Asli: %d px</string>
+    <string name="res_reset">Reset</string>
+    <string name="res_reset_toast">Resolusi direset ke default</string>
+    <string name="res_title">Pengubah Resolusi</string>
+    <string name="section_actions">Tindakan</string>
+    <string name="section_app_info">Informasi Aplikasi</string>
+    <string name="section_changelogs">Catatan Perubahan</string>
+    <string name="section_credits">Kredit &amp; Perpustakaan</string>
+    <string name="settings">Pengaturan</string>
+    <string name="shizuku_error_msg_format">Aplikasi Shizuku tidak ditemukan atau terjadi kesalahan: %s</string>
+    <string name="shizuku_error_title">Shizuku Error</string>
+    <string name="shizuku_not_active_msg">Service Shizuku belum berjalan. Silakan buka aplikasi Shizuku dan klik \'Start\'.</string>
+    <string name="shizuku_not_active_title">Shizuku Tidak Aktif</string>
+    <string name="status_active">Shizuku Aktif</string>
+    <string name="status_checking">Memeriksa Layanan...</string>
+    <string name="status_desc_full">Layanan berjalan dengan izin penuh</string>
+    <string name="status_desc_wait">Silakan jalankan Shizuku terlebih dahulu</string>
+    <string name="status_disconnected">Shizuku Terputus</string>
+    <string name="title_battery">Info Baterai</string>
+    <string name="title_density">Kepadatan</string>
+    <string name="title_fps">FPS Meter</string>
+    <string name="title_logcat">LogCat</string>
+    <string name="title_power">Menu Daya</string>
+    <string name="title_refresh_rate">Refresh Rate</string>
+    <string name="title_resolution">Resolusi</string>
+    <string name="update_no_new">Aplikasi Anda sudah dalam versi terbaru.</string>
+    <string name="update_title">Cek Pembaruan</string>
+    <string name="version_format">Versi %s</string>
+    <style name="AppTheme" parent="Base.AppTheme"/>
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+    </style>
+</resources>
