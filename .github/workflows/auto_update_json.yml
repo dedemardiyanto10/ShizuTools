@@ -31,7 +31,7 @@ jobs:
           V_CODE=1
           F_UPDATE=false
           if [ -f "update.json" ]; then
-            # Ambil nilai versionCode, jika bukan angka gunakan 0
+            # Ambil nilai versionCode lama, jika gagal gunakan 0
             CURRENT_V_CODE=$(jq -r '.versionCode // 0' update.json | grep -E '^[0-9]+$' || echo "0")
             V_CODE=$((CURRENT_V_CODE + 1))
             F_UPDATE=$(jq -r '.isForceUpdate // false' update.json)
@@ -42,7 +42,6 @@ jobs:
           VERSION_NAME=$(echo "$TAG_NAME" | sed 's/[vV]//g')
           
           # 4. Cari Asset APK & Hitung Ukuran
-          # Mengambil asset pertama yang berakhiran .apk
           APK_INFO=$(echo "$RELEASE_JSON" | jq -r '.assets[]? | select(.name | endswith(".apk")) | "\(.browser_download_url)|\(.size)"' | head -n 1)
           
           if [ -z "$APK_INFO" ]; then
@@ -51,15 +50,16 @@ jobs:
           else
             DOWNLOAD_URL=$(echo "$APK_INFO" | cut -d'|' -f1)
             SIZE_BYTES=$(echo "$APK_INFO" | cut -d'|' -f2)
-            # Konversi Bytes ke MB dengan 1 angka di belakang koma
             FILE_SIZE=$(awk "BEGIN {printf \"%.1f MB\", $SIZE_BYTES/1048576}")
           fi
           
-          # 5. Ambil Changelog (Body Release)
+          # 5. Ambil Changelog
           CHANGELOG_TEXT=$(echo "$RELEASE_JSON" | jq -r '.body // "Pembaruan sistem terbaru"')
-          if [ "$CHANGELOG_TEXT" = "null" ]; then CHANGELOG_TEXT="Pembaruan sistem terbaru"; fi
+          if [ "$CHANGELOG_TEXT" = "null" ] || [ -z "$CHANGELOG_TEXT" ]; then 
+            CHANGELOG_TEXT="Pembaruan sistem terbaru"; 
+          fi
 
-          # 6. Kirim ke GITHUB_OUTPUT (Menggunakan delimiter aman GH_EOF)
+          # 6. Kirim ke GITHUB_OUTPUT (Menggunakan Delimiter Aman)
           echo "v_code=$V_CODE" >> "$GITHUB_OUTPUT"
           echo "f_update=$F_UPDATE" >> "$GITHUB_OUTPUT"
           echo "v_name=$VERSION_NAME" >> "$GITHUB_OUTPUT"
@@ -72,16 +72,25 @@ jobs:
           echo "GH_EOF" >> "$GITHUB_OUTPUT"
 
       - name: Generate update.json
+        env:
+          # Simpan output ke ENV untuk menghindari shell syntax error
+          V_CODE: ${{ steps.get_data.outputs.v_code }}
+          V_NAME: ${{ steps.get_data.outputs.v_name }}
+          V_DATE: ${{ steps.get_data.outputs.date }}
+          V_URL: ${{ steps.get_data.outputs.d_url }}
+          V_LOG: ${{ steps.get_data.outputs.c_log }}
+          V_SIZE: ${{ steps.get_data.outputs.f_size }}
+          V_FORCE: ${{ steps.get_data.outputs.f_update }}
         run: |
-          # Membuat file JSON baru menggunakan JQ agar formatnya valid
+          # Gunakan jq untuk menyusun JSON dari env variables
           jq -n \
-            --arg v_code "${{ steps.get_data.outputs.v_code }}" \
-            --arg v_name "${{ steps.get_data.outputs.v_name }}" \
-            --arg date "${{ steps.get_data.outputs.date }}" \
-            --arg d_url "${{ steps.get_data.outputs.d_url }}" \
-            --arg c_log "${{ steps.get_data.outputs.c_log }}" \
-            --arg f_size "${{ steps.get_data.outputs.f_size }}" \
-            --argjson f_update "${{ steps.get_data.outputs.f_update }}" \
+            --arg v_code "$V_CODE" \
+            --arg v_name "$V_NAME" \
+            --arg date "$V_DATE" \
+            --arg d_url "$V_URL" \
+            --arg c_log "$V_LOG" \
+            --arg f_size "$V_SIZE" \
+            --argjson f_update "$V_FORCE" \
             '{
               versionCode: ($v_code | tonumber),
               versionName: $v_name,
@@ -100,9 +109,8 @@ jobs:
           
           git add update.json
           
-          # Hanya commit jika ada perubahan asli
           if git diff --staged --quiet; then
-            echo "Tidak ada perubahan pada update.json"
+            echo "Tidak ada perubahan."
           else
             git commit -m "chore: auto-update update.json [skip ci]"
             git push origin HEAD:main
