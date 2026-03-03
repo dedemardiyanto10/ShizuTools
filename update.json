@@ -1,10 +1,10 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.0",
+  "versionCode": 4,
+  "versionName": "1.1.0",
   "updateDate": "03-03-2026",
-  "downloadUrl": "#",
-  "changelog": "Pembaruan sistem terbaru",
-  "fileSize": "-- MB",
+  "downloadUrl": "https://github.com/dedemardiyanto10/ShizuTools/releases/download/V1.1.0/ShizuTools.apk",
+  "changelog": "\"changelog\": \"🚀 ShizuTools Update v1.1.0 - Stability & Performance Enhancement\\n\\nApa yang baru?\\nKami fokus pada penguatan integrasi Shizuku dan perbaikan visual pada mode Amoled agar pengalaman pengguna lebih mulus.\\n\\n✨ Fitur Utama & Peningkatan:\\n- Shizuku Service Watchdog: Deteksi status layanan Shizuku yang lebih akurat dan responsif.\\n- Enhanced Amoled Mode: Perbaikan kontras pada elemen CardView agar tetap terlihat elegan di layar hitam pekat.\\n- Multi-language Optimized: Perbaikan terjemahan pada beberapa dialog teknis.\\n- Build Info: Sekarang menampilkan tipe Build (DEBUG/RELEASE) secara dinamis di halaman Info.\\n\\n🛠 Perbaikan & Optimasi:\\n- Fix Screen Controller: Memperbaiki masalah reset DPI yang terkadang gagal pada beberapa perangkat Android 13.\\n- Memory Leak Fix: Mengoptimalkan penggunaan RAM saat menjalankan monitor FPS di latar belakang.\\n- UI Polishing: Penyesuaian sudut membulat (Corner Radius) sesuai standar Material 3 terbaru.\",\r",
+  "fileSize": "2.3 MB",
   "releaseType": "Official Release",
   "isForceUpdate": false
 }
